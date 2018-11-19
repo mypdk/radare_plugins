@@ -1,3 +1,6 @@
+// modified after js_12345678_55AA
+// https://free-pdk.github.io/PADAUK_FPPA_14_bit_instruction_set.html
+
 static struct {
 	char *op;
 	char *name;
