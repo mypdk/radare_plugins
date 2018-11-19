@@ -1,2 +1,2 @@
 # radare_plugins
-Plugins for radare specifically targeting smal micros like pic and chinese brands
+Plugins for radare specifically targeting small micros like pic and chinese brands
