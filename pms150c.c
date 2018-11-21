@@ -58,16 +58,22 @@ static struct {
 };
 
 static struct {
-	char* valid;
+	char* address;
+	char* comment;
 } data_mem[] = {
-	"0x00 - 0x3F",
+	"0x00 - 0x3f", "User storage",
+	"[sp]", "Stack"
 };
 
 static struct {
-	char* valid;
-	char* reserved;
+	char* address;
+	char* comment;
 } program_mem[] = {
-	"0x000 - 0x3FF", "0x3F0 - 0x3FF",
+	"0x000", "FPP0 reset vector",
+	"0x001 - 0x00f", "User program",
+	"0x010", "Interrupt entry address",
+	"0x011 - 0x3ef", "User program",
+	"0x3f0 - 0x3ff", "reserved",
 };
 
 // modified after DDunfield 
