@@ -41,5 +41,5 @@ static struct {
 "010.1nnf.ffff", "BTSC f, b", "", "Bit test, skip if clear",
 "011.1nnf.ffff", "BTSS f, b", "", "Bit test, skip if set",
 "00k.kkkk.kkkk", "JUMP k", "", "JUMP to address",
-"2222.2222.2222.2222", NULL, 0, "",
+"222.2222.2222", NULL, 0, "",
 };
