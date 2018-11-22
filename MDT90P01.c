@@ -3,6 +3,8 @@
 
 // 0,5k words rom, 30 nibbles ram
 
+ut8 opcode_size = 11;
+
 static struct {
 	char *op;
 	char *name;
